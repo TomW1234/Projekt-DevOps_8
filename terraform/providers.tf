@@ -11,7 +11,7 @@ terraform {
   backend "s3" {
     bucket  = "tw-s3-952804383323-eu-central-1-an"
     key     = "terraform/lesson-8/terraform.tfstate"
-    region  = "us-east-1"
+    region  = "eu-central-1"
     encrypt = true
   }
 }
