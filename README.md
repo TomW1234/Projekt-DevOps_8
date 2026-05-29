@@ -28,9 +28,3 @@ nginx-ecr-ecs-github/
 └── README.md
 ```
 
-
-- v ECR existuje repository a obsahuje image tag `latest`,
-- v ECS běží service i tasky,
-- target group v ALB má healthy targety,
-- `terraform output alb_dns_name` vrací veřejnou adresu load balanceru [file:3],
-- po otevření ALB DNS se zobrazí tvůj vlastní `index.html`.
